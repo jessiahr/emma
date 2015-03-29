@@ -1,0 +1,7 @@
+
+<h3>{{ medium-content-editable value=model.title  }}</h3>
+{{!-- {{input type="text" value=model.title }} --}}
+<p>{{ medium-content-editable value=model.body  }}</p>
+<a {{action 'savePost'}}> Save</a>
+
+{{outlet}}
